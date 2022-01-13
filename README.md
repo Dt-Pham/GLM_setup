@@ -15,11 +15,26 @@ Have Conda or Miniconda installed.
 
     The instruction to install glmtool is [here](https://github.com/deeplycloudy/glmtools/blob/master/docs/index.rst).
     
-## Get the GLM data
+3. Install other packages to interact with the data
+
+    ```bash
+    conda install -c anaconda netcdf4       # netcdf is the file format of glm data
+    conda install jupyter notebook          # to interact .ipynb files
+    ```
+    
+## Download the GLM data
 
 1. Make sure to activate the correct conda environment.
 
-```bash
-conda activate glmval
-python NCDownloaderInteractive.py
-```
+    ```bash
+    conda activate glmval
+    python NCDownloaderInteractive.py
+    ```
+
+## Using the data
+
+[Examples](https://github.com/deeplycloudy/glmtools/tree/master/examples) in the glmtools repository.
+
+
+## MISC
+[Conda Cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
