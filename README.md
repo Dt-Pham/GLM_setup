@@ -10,8 +10,8 @@ Have Conda or Miniconda installed.
     The data is stored in Google Cloud, therefore we need to install Cloud SDK in order to query those data.<br>
     Follow [this](https://cloud.google.com/sdk/docs/install) to install Cloud SDK.
 
-2. Install [glmtool](https://github.com/deeplycloudy/glmtools)<br>
-    The instruction to install glmtool is [here](https://github.com/deeplycloudy/glmtools/blob/master/docs/index.rst).
+2. Install [glmtools](https://github.com/deeplycloudy/glmtools)<br>
+    The instruction to install glmtools is [here](https://github.com/deeplycloudy/glmtools/blob/master/docs/index.rst).
     
 3. Install other packages to interact with the data
 
